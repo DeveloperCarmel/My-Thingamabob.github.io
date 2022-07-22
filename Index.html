@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+		 background-color: #8E443D;
+		}
+		section.one{
+			text-align: center;
+		}
+		h1{
+			font-size: 50px;
+			color: #CAC4CE;
+		}
+	</style>
+	<title>password</title>
+	<script type="text/javascript">
+		function checkpassword() {
+			var password = document.getElementById("Passwordbox");
+			var passwordText= password.value; if (passwordText=="Caramel") {
+				return true;
+			}
+			else{
+				alert("Error. Good Try you Hacker")
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<section class="one">
+	<h1>..-WELCOME-..</h1>
+	<h4>..To the "password" page of my page</h4>
+  	<h3>Enter the Password
+	 to Start</h3>
+	 <p>password<input id="Passwordbox" type="password" name="Passwordbox"></p>
+   <button><a href="My Thingamabob.html" onclick="return checkpassword();">go Here...</a></button>
+   </section>
+</body>
+</html>
